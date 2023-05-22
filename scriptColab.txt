@@ -1,0 +1,45 @@
+import requests
+import re
+import time
+
+# Lista de URLs a serem analisadas
+urls = ["https://g1.globo.com/es/espirito-santo/noticia/2023/04/26/covid-prefeituras-no-es-iniciam-imunizacao-com-vacina-bivalente-para-acima-de-18-anos-veja-onde-e-como-se-vacinar.ghtml",
+"https://g1.globo.com/es/espirito-santo/noticia/2023/05/20/ministerio-da-saude-descarta-34-casos-suspeitos-de-gripe-aviaria-outros-2-sao-investigados-no-es.ghtml",
+"https://g1.globo.com/es/espirito-santo/noticia/2023/05/19/menos-e-mais-tierry-pericles-fagner-teatro-com-marisa-orth-e-mais-veja-a-agenda-de-eventos-do-es.ghtml",
+"https://g1.globo.com/es/espirito-santo/noticia/2023/05/20/impasse-entre-governo-do-es-e-eco101-condutores-vao-pagar-pedagio-ate-quando-quais-servicos-continuam.ghtml",
+"https://g1.globo.com/es/espirito-santo/noticia/2023/05/19/governo-do-es-desiste-de-assumir-a-administracao-da-br-101.ghtml"]
+
+# Regex a ser aplicada
+regex = r'(?<=<meta name="title" content=").+?(?=">)'
+
+# Loop sobre as URLs
+for url in urls:
+    # Baixar o conteúdo da página
+    response = requests.get(url)
+    
+    # Verificar se a requisição foi bem-sucedida
+    if response.status_code == 200:
+        content = response.content.decode('utf-8')
+
+        try:
+            # Aplicar a regex sobre o conteúdo da página
+            matches = re.findall(regex, content)
+            
+            # Verificar se foram encontrados resultados
+            if len(matches) > 0:
+                # Imprimir os resultados
+                for match in matches:
+                    print(match)
+            else:
+                # Se nenhum resultado for encontrado, imprimir uma mensagem
+                print(f"Nenhum resultado encontrado para a URL {url}")
+
+        except:
+            # Se houver algum erro na aplicação da regex, registrar que houve uma extração incorreta para essa URL
+            print(f"Extração incorreta para a URL {url}")
+    else:
+        # Se a resposta não for 200, imprimir uma mensagem de erro de requisição para a URL atual
+        print(f"Erro na requisição da URL {url} - Status: {response.status_code}")
+        
+    # Aguardar 1 segundo antes da próxima requisição
+    time.sleep(1)
