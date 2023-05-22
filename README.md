@@ -12,18 +12,32 @@ https://bit.ly/extregex - extensão para Chrome <br>
 # Google Colab
 https://colab.research.google.com/ <br>
 
-# Exercício 1
+# Exercício 1 - Agenda de Contatos
 https://pc.es.gov.br/agenda-de-contatos <br>
 https://pm.es.gov.br/agenda-de-contatos <br>
 
-# Exercício 2
+# Exercício 2 - Folha de Pagamento
 https://transparencia.vitoria.es.gov.br/Pessoal.Servidor.Detalhes.aspx?ServidorID=3978&Exercicio=2021&periodo=tpJaneiro <br>
 
-# Exercício 3
+# Exercício 3 - Quadrilha assalto moto
 https://detran.es.gov.br/editais-de-notificacao-de-multa <br>
 https://chrome.google.com/webstore/detail/downthemall/nljkibfhlpcnanjgbnlnbjecgicbjkge <br>
 https://www.ilovepdf.com/pt/juntar_pdf <br>
 https://www.keplaca.com/ <br>
+
+# Exercício 4 - Licitação Guarda
+27.244.128/0001-57 - METRON ENGENHARIA LTDA
+09.109.379/0001-47 - PLENA CONSTRUTORA LTDA
+18.651.053/0001-38 - APICE ENGENHARIA E CONSULTORIA LTDA
+14.521.533/0001-23 - PONTUAL EMPREENDIMENTOS LTDA
+09.335.445/0001-05 - MISA PARTICIPACOES LTDA
+13.507.602/0001-81 - LIDER EMPREENDIMENTOS LTDA
+09.627.549/0001-85 - CRETA EMPREENDIMENTOS LTDA
+27.318.674/0001-95 - MORAR CONSTRUTORA E INCORPORADORA LTDA
+09.086.865/0006-00 - TAMOIOS EMPREENDIMENTOS IMOBILIARIOS LTDA.
+https://minhareceita.org/CNPJ
+https://receitaws.com.br/v1/cnpj/CNPJ
+https://bcunha.pythonanywhere.com/rede/
 
 # Raspagem de dados em sites de notícias
 https://g1.globo.com/es/espirito-santo/ <br>
