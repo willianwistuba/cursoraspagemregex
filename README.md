@@ -10,6 +10,9 @@ https://regex101.com/ <br>
 https://regexr.com/ <br>
 https://bit.ly/extregex - extensão para Chrome <br>
 
+# Folha de Resumo de Regex
+https://regexlearn.com/cheatsheet
+
 # Google Colab
 https://colab.research.google.com/ <br>
 
