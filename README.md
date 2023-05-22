@@ -3,6 +3,7 @@
 2ª Parte) https://www.canva.com/design/DAFjT846iio/j7rXoRXN1l7MHz4cYYVEfg/view#1 <br>
 Link1: https://bit.ly/cursoregex1 <br>
 Link2: https://bit.ly/cursoregex2 <br>
+Exercícios: https://www.canva.com/design/DAFjbCYHvxM/62rcnxvAQ6tSmGaLYexabw/view#1
 
 # Ferramentas que processam Regex
 https://regex101.com/ <br>
