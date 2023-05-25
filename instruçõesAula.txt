@@ -176,6 +176,8 @@ INSTAGRAM ID: F12 na página principal, inspecionar o arquivo JSON que contem "q
 _________________________________________________
 # Raspagem no Twitter
 
+Twitter ID: F12 na página principal, inspecionar arquivo JSON com nome "UserByScreenName"
+
 -> Raspagem de lista de seguidores/seguindo
 			-> endereço para testes:
 				-> https://twitter.com/WBEduca	
