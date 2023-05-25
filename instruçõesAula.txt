@@ -132,8 +132,8 @@ _________________________________________________
 		
 		-> Raspagem de lista de posts (usando o mbasic)
 			-> Identificar ID numérico da conta
-				-> Aplicar regex userID":"\d+ no Doc principal do perfil (via inspetor de elementos)
-			-> Aplicar regex: (?<=top_level_post_id&quot;:&quot;)\d+
+				-> Buscar por owner_id
+			-> Aplicar regex no doc html da linha do tempo: (?<=top_level_post_id&quot;:&quot;)\d+
 			-> Aplicar substituições até chegar no formato de link
 				https://www.facebook.com/permalink.php?story_fbid=[IDPOST]&id=[IDPERFIL]
 		
@@ -147,7 +147,7 @@ _________________________________________________
 		
 		-> Raspagem de lista de seguidores/seguindo
 			-> perfil para testes:
-				https://www.instagram.com/patriota0022/
+				https://www.instagram.com/poesiasdorisadinha/
 				
 			-> pesquisa elemento pela classe ('aano'), copia elemento
 			-> aplicar regex para extração dos nicknames
