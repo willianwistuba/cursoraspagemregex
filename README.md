@@ -56,7 +56,7 @@ https://bcunha.pythonanywhere.com/rede/) <br>
 https://sites.google.com/view/raspagem-de-dados-com-regex/facebook-scrapper <br>
 
 # Raspagem de dados Instagram
-https://www.instagram.com/patriota0022/ <br>
+https://www.instagram.com/poesiasdorisadinha/ <br>
 https://www.instagram.com/nicknames) <br>
 https://bcunha.pythonanywhere.com/rede/) <br> 
 https://sites.google.com/view/raspagem-de-dados-com-regex/instagram-scrapper <br>
