@@ -143,6 +143,8 @@ _________________________________________________
 _________________________________________________
 # Raspagem no Instagram
 
+INSTAGRAM ID: F12 na página principal, inspecionar o arquivo JSON que contem "query_hash" no nome e buscar o ID
+
 -> Raspagem de dados de perfis abertos
 		
 		-> Raspagem de lista de seguidores/seguindo
